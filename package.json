@@ -1,0 +1,30 @@
+{
+  "name": "flayo",
+  "version": "0.0.1",
+  "description": "A way to use all CPU cores to create PHP real-time apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qti3e/flayo.git"
+  },
+  "keywords": [
+    "Websocket",
+    "PHP",
+    "Cluster"
+  ],
+  "author": "Parsa Ghadimi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qti3e/flayo/issues"
+  },
+  "homepage": "https://github.com/qti3e/flayo#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "json-query": "^2.2.2",
+    "shortid": "^2.2.8",
+    "ws": "^4.0.0"
+  }
+}
